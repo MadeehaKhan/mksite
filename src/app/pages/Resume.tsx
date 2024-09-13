@@ -1,0 +1,4 @@
+type ResumeProps = {
+    resumeType: string,
+}
+

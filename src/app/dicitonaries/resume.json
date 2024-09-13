@@ -1,0 +1,133 @@
+{
+  "teaching": {
+    "heading": {
+      "title": "Teaching Resume",
+      "intro": "Over 12 years of experience in lesson planning, teaching, and development."
+    },
+    "summitRidge": {
+      "title": "Tutor",
+      "duties": "Specializing in mathematics and phonics for neurodivergent students in elementary, middle, and high school.",
+      "timing": "",
+      "description": {
+        "point1": "Independently planning lessons which target weaknesses in student's abilities based on competencies from the Ontario curriculum, adapting them based on performance in the session and feedback from the classroom.",
+        "point2": "Working with students using science-based approaches for teaching (Science of Reading, JUMP Assessments) as well as managing the needs of students with developmental disorders to keep students engaged, confident, and focused.",
+        "point3": "Providing comprehensive feedback and resources for families of students to keep them part of the learning process and log student progress for their family and teachers."
+      }
+    },
+    "Beyond the Classroom": {
+      "title": "Tutor",
+      "duties": "Academic support, test preparation, and homework help for various school subjects, working with students of various ages.",
+      "timing": "",
+      "description": {
+        "point1": "Assessed student abilities to find their strengths and weaknesses in each subject to find a jumping off point and build their self-confidence.",
+        "point2": "Clearly communicated educational plans with both students and their parents, in appropriate terms with each audience, in order to maintain clarity, trust, and to keep a log of student progress.",
+        "point3": "Improved each student's overall grade in the relevant subject(s) thereby increasing their grades and setting them up for further challenges."
+      }
+    },
+    "Muslim Children of North America (MCNA)": {
+      "title": "Teacher",
+      "duties": "Responsible for over 100 elementary and middle school-aged students, following a set curriculum and planning lessons to deliver faith-based teachings.",
+      "timing": "",
+      "description": {
+        "point1": "Creating a detailed lesson plan for each week's class that flows with the rest of the semester's curriculum as well as administrative expectations.",
+        "point2": "Keeping students engaged and active in the classroom by adapting as I learn about them and the best way to teach each student (ex. incorporating accessible options for activities, getting quieter students to engage verbally) to great praise from administration and parents.",
+        "point3": "Leveraging technology (ex. Google Classroom, Kahoot) to keep in contact with parents regarding homework, assignments and quizzes, and individual student performance."
+      }
+    },
+    "McMaster Learning Enrichment Advancement Program (LEAP)": {
+      "title": "Computer Science Instructor",
+      "duties": "Developing and delivering a curriculum for a summer camp for students grades 10-12 based on the basics of Computer Science.",
+      "timing": "",
+      "description": {
+        "point1": "Led workshops for engineering and science in various high schools, creating excitement and interest in the LEAP Program for the summer.",
+        "point2": "Working with a supervisor and partner to choose and plan skill-level appropriate activities for students to teach them about Computer Science. Ensured that curriculum was varied enough to retain students' interest, but cohesive enough that they would complete the camp with a solid skill set.",
+        "point3": "Led classroom activities for the curriculum, making sure that students were engaged, respectful, and enjoying their time at LEAP.",
+        "point4": "Expertly handled interruptions/changes to the lesson plans and inappropriate behaviours from students to create a safe, fun learning space."
+      }
+    },
+    "McMaster Computer Science (CS) Outreach": {
+      "title": "Workshop Leader",
+      "duties": "Developed and led workshops designed to teach students grades 2-10 about the basics of Computer Science.",
+      "timing": "",
+      "description": {
+        "point1": "Worked with the program head and to develop activities for a workshop that could accommodate a variety of age groups and abilities.",
+        "point2": "Engaged students in workshop activities, aiding them where needed and adapting activities on the fly when they did not seem to work for a particular group of students."
+      }
+    }
+  },
+
+  "programming": {
+    "heading": {
+      "title": "Software Development Resume",
+      "intro": "Fullstack engineer with experience in React, Angular, .NET, and Node.js."
+    },
+    "Being ME": {
+      "title": "IT Specialist",
+      "duties": "Improving operations at a nonprofit organization enabling Muslim women to build and contribute to their communities.",
+      "timing": "",
+      "description": {
+        "point1": "Manage project lifecycle from inception to deployment, utilizing Agile methodologies to ensure timely delivery and alignment with business goals.",
+        "point2": "Enhance backend performance by integrating modern technologies, achieving a 40% reduction in load times and improving overall site reliability and scalability.",
+        "point3": "Leading a company website revamp to enhance user experience and expand functionality, enabling further user engagement, online transactions, and event registrations.",
+        "point4": "Collaborate with cross-functional teams to gather and analyze business requirements, leading to the successful implementation of new website features with two fellow engineers.",
+        "point5": "Streamline communication and project management by implementing tools like Trello and G Suite, enhancing team collaboration and reducing project timelines by 15%."
+      }
+    },
+    "Blue J Legal": {
+      "title": "Software Developer",
+      "duties": "Providing specialized generative AI products for tax and legal experts.",
+      "timing": "",
+      "description": {
+        "point1": "Maintained critical features in a global cloud environment for all systems, ensuring maximum uptime and minimal errors.",
+        "point2": "Facilitated significant upgrades to Blue J's flagship product, enhancing case tracking, legal analysis, and annotation capabilities.",
+        "point3": "Spearheaded the development of major features, significantly improving user experience and implementing advanced authorization security using React, Redux, and Storybook UI.",
+        "point4": "Drove the separation of product functionality into microservices, aligning with industry standards, enhancing system scalability, and reducing deployment times by 10%."
+      }
+    },
+    "TATA Consultancy Services (TCS)": {
+      "title": "Frontend Lead Developer",
+      "duties": "Providing customers across 55 countries with IT services, consulting, and business solutions.",
+      "timing": "",
+      "description": {
+        "point1": "Directed the UI team in creating a high-traffic web application, serving thousands of users across Canada, improving user engagement by 20%.",
+        "point2": "Drove the migration of BMO Customer Intake's front-end and back-end to AWS in only 8 months, overseeing project timelines, coordinating other developers, and utilizing Noda.js and Java.",
+        "point3": "Led the design and implementation of the user interface using Angular and ensuring seamless integration with APIs.",
+        "point4": "Effectively tracked project progress using Agile methodologies, including daily scrum standups; Contributed to sprint planning, retrospectives, and reviews."
+      }
+    },
+    "Pillbox": {
+      "title": "Software Developer & Project Manager",
+      "duties": "Mobile application providing users with an all-in-one tool to track and learn about their prescriptions.",
+      "timing": "",
+      "description": {
+        "point1": "Designed and developed a user-friendly application for managing multiple medications, allowing patients to scan prescriptions for automatic setup of reminders and instructions.",
+        "point2": "Initiated project development by creating detailed product specifications, conducting customer research, and identifying business entities and use cases.",
+        "point3": "Mastered Ionic framework in Angular mobile and TypeScript to build a reliable and responsive application.",
+        "point4": "Maintained regular communication with subject matter experts and stakeholders throughout the development lifecycle."
+      }
+    },
+    "Microsoft": {
+      "title": "Program Manager Intern",
+      "duties": "Providing customers in 190 countries with cloud computing, operating systems, and productivity tools.",
+      "timing": "",
+      "link": "https://www.youtube.com/watch?v=9y5AchSAEJY",
+      "description": {
+        "point1": "Redesigned and launched a tool to track Office builds, facilitating more frequent and consistent updates.",
+        "point2": "Designed and implemented a tagging tool with Teams, enabling customers to efficiently tag items, organize items, and streamline content management processes.",
+        "point3": "Collaborated with the lead developer to create a prototype tagging tool within Teams; Achieved widespread adoption within the first week of launch.",
+        "point4": "Enabled more efficient tracking of R&D activities by redesigning an internal workflow visualization tool, tracking completion status on items and sending reminders to relevant personnel."
+      }
+    },
+    "McMaster Computer Science (CS) Outreach": {
+      "title": "Software Developer",
+      "duties": "Developed libraries and delivered lessons to teach students grades 2-10 about the basics of Computer Science.",
+      "timing": "",
+      "link": "http://outreach.mcmaster.ca/",
+      "description": {
+        "point1": "Developed a library with simplified syntax to allow students to create shapes and animations.",
+        "point2": "Organized and led mini hackathons for students, aiding in development of minigames from pre-prepared templates.",
+        "point3": "Led the development of game templates for students to explore during mini hackathons, including templates for racing games, block-stacking games, and word games."
+      }
+    }
+  }
+}
