@@ -1,7 +1,15 @@
-type ResumeProps = {
-    resumeType: string,
-}
+import { Container, Row } from "react-bootstrap";
+import { ResumeFrame } from "../components/ResumeFrame";
 
-const Resume = (props: ResumeProps) => {
-    return;
-}
+type ResumeProps = {
+  resumeType: string;
+};
+
+export const Resume = (props: ResumeProps) => {
+  return (
+    <Container>
+      <Row> header </Row>
+      <ResumeFrame type={props.resumeType}></ResumeFrame>
+    </Container>
+  );
+};

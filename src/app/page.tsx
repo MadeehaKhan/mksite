@@ -1,18 +1,24 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { ResumeFrame } from "./components/ResumeFrame";
+import { Resume } from "./pages/Resume";
 
-export default function Home() {
+const Home = (props: any) => {
   return (
     <div>
       <main>
-    <Container>
-      <Row>
-        <Col></Col>
-        <Col lg="3">sidebar</Col>
-        <Col md="auto">content</Col>
-        <Col></Col>
-      </Row>
-    </Container>
-    </main>
+        <Container>
+          <Row>
+            <Col></Col>
+            <Col>sidebar</Col>
+            <Col md="auto">
+              <Resume resumeType="teaching"></Resume>
+            </Col>
+            <Col></Col>
+          </Row>
+        </Container>
+      </main>
     </div>
   );
-}
+};
+
+export default Home;
