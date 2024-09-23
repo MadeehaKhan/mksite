@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ResumeFrame } from "./components/ResumeFrame";
 import { Resume } from "./pages/Resume";
 
 const Home = (props: any) => {
@@ -10,8 +9,8 @@ const Home = (props: any) => {
           <Row>
             <Col></Col>
             <Col>sidebar</Col>
-            <Col md="auto">
-              <Resume resumeType="teaching"></Resume>
+            <Col md="7">
+              <Resume resumeType="programming"></Resume>
             </Col>
             <Col></Col>
           </Row>

@@ -8,7 +8,8 @@ type ResumeProps = {
 export const Resume = (props: ResumeProps) => {
   return (
     <Container>
-      <Row> header </Row>
+      <Row> <h1>Madeeha Khan</h1> </Row>
+      <Row></Row>
       <ResumeFrame type={props.resumeType}></ResumeFrame>
     </Container>
   );

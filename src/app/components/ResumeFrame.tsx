@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Accordion } from "react-bootstrap";
 import resume from "../dicitonaries/resume.json";
 
 type FrameProps = {
@@ -6,15 +6,16 @@ type FrameProps = {
 };
 
 type ExperienceProps = {
-  experience: any[];
+  experience: Experience[];
 };
 
 type Experience = {
   title: string;
   duties: string;
   timing: string;
-  description: any[];
+  description: string[];
   organization: string;
+  link?: string;
 };
 
 const ExperienceFrame = (props: ExperienceProps) => {
@@ -24,14 +25,17 @@ const ExperienceFrame = (props: ExperienceProps) => {
   return (
     <>
       {props.experience.map((item: Experience, i) => {
-        console.log(item);
         let { title, timing, description, duties, organization } = item;
         return (
           <Container key={i}>
-            <Row> {organization} </Row>
             <Row>
-              <Col>{title}</Col>
-              <Col>{timing}</Col>
+              <h5> {organization}</h5>{" "}
+            </Row>
+            <Row>
+              <dl className="dl-horizontal">
+                <dt>{title}</dt>
+                <dd>{timing}</dd>
+              </dl>
             </Row>
             <Row>{duties}</Row>
             <Row>
@@ -48,19 +52,27 @@ export const ResumeFrame = (props: FrameProps) => {
   let { type } = props;
   let object = type == "teaching" ? resume.teaching : resume.programming;
   return (
-    <Container>
-      <Row>{object.heading.title}</Row>
-      <Row>{object.heading.intro}</Row>
-      <Row></Row>
-      <Row>core competencies </Row>
-      <Row>certificates</Row>
+    <Accordion defaultActiveKey="0">
+      <Row>
+        <h2>{object.heading.title}</h2>
+      </Row>
+      <Row>
+        <p>{object.heading.intro}</p>
+      </Row>
       <Row></Row>
       <Row>
-        Relevant Experience
+        <h3>Relevant Experience</h3>
         <ExperienceFrame experience={object.experience}></ExperienceFrame>
       </Row>
       <Row></Row>
+      <Row>
+        <h4>Core Competencies</h4>
+      </Row>
+      <Row>
+        <h4>Certificates</h4>
+      </Row>
       <Row></Row>
-    </Container>
+      <Row></Row>
+    </Accordion>
   );
 };
