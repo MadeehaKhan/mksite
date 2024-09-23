@@ -60,19 +60,21 @@ export const ResumeFrame = (props: FrameProps) => {
         <p>{object.heading.intro}</p>
       </Row>
       <Row></Row>
-      <Row>
-        <h3>Relevant Experience</h3>
-        <ExperienceFrame experience={object.experience}></ExperienceFrame>
-      </Row>
+      <Accordion defaultActiveKey="0">
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Relevant Experience</Accordion.Header>
+          <Accordion.Body>
+            <ExperienceFrame experience={object.experience}></ExperienceFrame>
+          </Accordion.Body>
+        </Accordion.Item>
       <Row></Row>
-      <Row>
-        <h4>Core Competencies</h4>
-      </Row>
-      <Row>
-        <h4>Certificates</h4>
-      </Row>
-      <Row></Row>
-      <Row></Row>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Core Competencies</Accordion.Header>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>Certificates</Accordion.Header>
+      </Accordion.Item>
+      </Accordion>
     </Accordion>
   );
 };
