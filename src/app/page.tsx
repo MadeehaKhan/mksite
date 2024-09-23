@@ -1,6 +1,7 @@
 "use client" 
 import { Container, Row, Col } from "react-bootstrap";
 import { Resume } from "./pages/Resume";
+import { Sidebar } from "./components/Sidebar";
 
 const Home = (props: any) => {
   return (
@@ -9,9 +10,9 @@ const Home = (props: any) => {
         <Container>
           <Row>
             <Col></Col>
-            <Col>sidebar</Col>
+            <Col><Sidebar></Sidebar></Col>
             <Col md="7">
-              <Resume resumeType="programming"></Resume>
+              <Resume resumeType="teaching"></Resume>
             </Col>
             <Col></Col>
           </Row>

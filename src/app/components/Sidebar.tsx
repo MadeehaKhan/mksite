@@ -1,7 +1,10 @@
-type SidebarProps = {
+import { Header } from "./Header";
+import { Nav } from "react-bootstrap";
 
-}
+type SidebarProps = {};
 
-const Sidebar = (props: SidebarProps) => {
-    
-}
+export const Sidebar = (props: SidebarProps) => {
+  return (
+    <></>
+  );
+};

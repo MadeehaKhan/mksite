@@ -1,6 +1,8 @@
 import { Container, Row, Accordion } from "react-bootstrap";
 import resume from "../dicitonaries/resume.json";
 
+//TODO: add styling
+
 type FrameProps = {
   type: string;
 };
@@ -18,10 +20,11 @@ type Experience = {
   link?: string;
 };
 
+const ListItem = (point: string) => {
+  return <li> {point} </li>;
+};
+
 const ExperienceFrame = (props: ExperienceProps) => {
-  const ListItem = (point: string) => {
-    return <li> {point} </li>;
-  };
   return (
     <>
       {props.experience.map((item: Experience, i) => {
@@ -51,7 +54,7 @@ const ExperienceFrame = (props: ExperienceProps) => {
 export const ResumeFrame = (props: FrameProps) => {
   let { type } = props;
   let object = type == "teaching" ? resume.teaching : resume.programming;
-  return (
+  return type == "programming" ? (
     <Accordion defaultActiveKey="0">
       <Row>
         <h2>{object.heading.title}</h2>
@@ -67,14 +70,35 @@ export const ResumeFrame = (props: FrameProps) => {
             <ExperienceFrame experience={object.experience}></ExperienceFrame>
           </Accordion.Body>
         </Accordion.Item>
-      <Row></Row>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Core Competencies</Accordion.Header>
-      </Accordion.Item>
-      <Accordion.Item eventKey="2">
-        <Accordion.Header>Certificates</Accordion.Header>
-      </Accordion.Item>
+        <Row></Row>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>Core Competencies</Accordion.Header>
+          <Accordion.Body>
+            <ul className="list-unstyled">
+              {object.coreCompetencies.map(ListItem)}
+            </ul>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>Certifications</Accordion.Header>
+          <Accordion.Body></Accordion.Body>
+        </Accordion.Item>
       </Accordion>
     </Accordion>
+  ) : (
+    <Container>
+      <Row>
+        <h2>{object.heading.title}</h2>
+      </Row>
+      <Row>
+        <p>{object.heading.intro}</p>
+      </Row>
+      <Row></Row>
+      <Row>
+        <h3>Relevant Experience</h3>
+        <ExperienceFrame experience={object.experience}></ExperienceFrame>
+      </Row>
+      <Row></Row>
+    </Container>
   );
 };

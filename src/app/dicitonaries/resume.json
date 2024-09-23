@@ -4,6 +4,7 @@
       "title": "Teacher",
       "intro": "Over 12 years of experience in lesson planning, teaching, and development."
     },
+    "coreCompetencies": ["", "", ""],
     "experience": [
       {
         "organization": "Summit Ridge Academy",
@@ -68,6 +69,11 @@
       "title": "Fullstack Software Developer",
       "intro": "Fullstack engineer with experience in React, Angular, .NET, and Node.js."
     },
+    "coreCompetencies": [
+      "Front-end development (React, Angular, Ionic)",
+      "Project Management",
+      "Data & Business Analysis"
+    ],
     "experience": [
       {
         "organization": "Being ME",
