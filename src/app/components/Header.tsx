@@ -9,7 +9,7 @@ export const Header = (props: HeaderProps) => {
   let { title, image } = props;
   return (
     <Container>
-      <p>{title}</p>
+      <h1>{title}</h1>
       <Image src={image} alt="placeholder"></Image>
     </Container>
   );
