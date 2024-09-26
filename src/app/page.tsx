@@ -3,7 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Resume } from "./pages/Resume";
 import { Sidebar } from "./components/Sidebar";
 
-const Home = (props: any) => {
+type HomeProps = {};
+
+const Home = (props: HomeProps) => {
+  //controls to display middle element
+  let activePage: string = "programming";
   return (
     <div>
       <main>
@@ -14,7 +18,11 @@ const Home = (props: any) => {
               <Sidebar></Sidebar>
             </Col>
             <Col md="7">
-              <Resume resumeType="teaching"></Resume>
+              {activePage == "teaching" ? (
+                <Resume resumeType="teaching"></Resume>
+              ) : (
+                <Resume resumeType="programming"></Resume>
+              )}
             </Col>
             <Col></Col>
           </Row>
