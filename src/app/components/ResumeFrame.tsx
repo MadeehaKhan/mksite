@@ -1,7 +1,9 @@
 import { Container, Row, Accordion } from "react-bootstrap";
 import resume from "../dicitonaries/resume.json";
+import { ListItem } from "./SharedComponents";
 
 //TODO: add styling
+//TODO: add user prompt to contact after viewing resume
 
 type FrameProps = {
   type: string;
@@ -18,10 +20,6 @@ type Experience = {
   description: string[];
   organization: string;
   link?: string;
-};
-
-const ListItem = (point: string) => {
-  return <li> {point} </li>;
 };
 
 const ExperienceFrame = (props: ExperienceProps) => {
@@ -54,7 +52,7 @@ const ExperienceFrame = (props: ExperienceProps) => {
 export const ResumeFrame = (props: FrameProps) => {
   let { type } = props;
   let object = type == "teaching" ? resume.teaching : resume.programming;
-  return type == "programming" ? (
+  return object == resume.programming ? (
     <Accordion defaultActiveKey="0">
       <Row>
         <h2>{object.heading.title}</h2>

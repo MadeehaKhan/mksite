@@ -25,13 +25,10 @@ export const Sidebar = (props: SidebarProps) => {
       className="flex-column"
     >
       <Nav.Link eventKey="home">Home</Nav.Link>
-      <NavDropdown drop="start" title="Resume" id="navbarDropdown">
-        <NavDropdown.Item eventKey="programming">Developer</NavDropdown.Item>
-        <NavDropdown.Item eventKey="teaching">Teacher</NavDropdown.Item>
-      </NavDropdown>
+      <Nav.Link eventKey="resume">Resume</Nav.Link>
       <Nav.Link eventKey="about">About</Nav.Link>
       <Nav.Link eventKey="contact">Contact</Nav.Link>
     </Nav>
   );
-  //TODO: fill about + contact
+  //TODO: fill about + contact + home
 };
