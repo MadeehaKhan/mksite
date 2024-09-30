@@ -12,6 +12,7 @@ export const Resume = () => {
     if (eventKey != resumeControl) setResumeControl(eventKey);
   };
 
+  //TODO: add link to pdf of full resume
   return (
     <Container>
       <Nav

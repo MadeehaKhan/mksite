@@ -81,11 +81,8 @@
         "duties": "Improving operations at a nonprofit organization enabling Muslim women to build and contribute to their communities.",
         "timing": "Nov 2022 - Present",
         "description": [
-          "Manage project lifecycle from inception to deployment, utilizing Agile methodologies to ensure timely delivery and alignment with business goals.",
-          "Enhance backend performance by integrating modern technologies, achieving a 40% reduction in load times and improving overall site reliability and scalability.",
-          "Leading a company website revamp to enhance user experience and expand functionality, enabling further user engagement, online transactions, and event registrations.",
-          "Collaborate with cross-functional teams to gather and analyze business requirements, leading to the successful implementation of new website features with two fellow engineers.",
-          "Streamline communication and project management by implementing tools like Trello and G Suite, enhancing team collaboration and reducing project timelines by 15%."
+          "Managed the full project lifecycle from inception to deployment using Agile methodologies, ensuring timely delivery and alignment with business goals. Collaborating with cross-functional teams and two engineers, we implemented new website features and enhanced backend performance, site reliability, and scalability.",
+          "Led front end development for the new Being ME Toronto website as a marketing tool and more effective means of communication with the community Being ME serves."
         ]
       },
       {
@@ -93,11 +90,10 @@
         "title": "Software Developer",
         "duties": "Providing specialized generative AI products for tax and legal experts.",
         "timing": "July 2021 - Oct 2022",
+        "link": "https://www.bluej.com/",
         "description": [
-          "Maintained critical features in a global cloud environment for all systems, ensuring maximum uptime and minimal errors.",
-          "Facilitated significant upgrades to Blue J's flagship product, enhancing case tracking, legal analysis, and annotation capabilities.",
-          "Spearheaded the development of major features, significantly improving user experience and implementing advanced authorization security using React, Redux, and Storybook UI.",
-          "Drove the separation of product functionality into microservices, aligning with industry standards, enhancing system scalability, and reducing deployment times by 10%."
+          "Innovated features on Blue J's flagship L&E product, delivering a simple and intuitive UI experience for our users in L&E, in-house counsel, and HR.",
+          "Shipped a suite of powerful tools— enhancing case tracking, legal analysis, and annotation capabilities—  that aligned with market needs, leading to a measurable improvement in user retention."
         ]
       },
       {
@@ -106,10 +102,8 @@
         "duties": "Providing customers across 55 countries with IT services, consulting, and business solutions.",
         "timing": "Jan 2020 - June 2021",
         "description": [
-          "Directed the UI team in creating a high-traffic web application, serving thousands of users across Canada, improving user engagement by 20%.",
-          "Drove the migration of BMO Customer Intake's front-end and back-end to AWS in only 8 months, overseeing project timelines, coordinating other developers, and utilizing Noda.js and Java.",
-          "Led the design and implementation of the user interface using Angular and ensuring seamless integration with APIs.",
-          "Effectively tracked project progress using Agile methodologies, including daily scrum standups; Contributed to sprint planning, retrospectives, and reviews."
+          "Led the UI Team in implementing the private & public customer intake processes for Bank of Montreal on the cloud through AWS; Improved user engagement by 20%.",
+          "Drove the migration of BMO's Customer Intake, overseeing project timelines, coordinating other developers, and tracking project progress using Agile methodologies"
         ]
       },
       {
@@ -118,10 +112,9 @@
         "duties": "Mobile application providing users with an all-in-one tool to track and learn about their prescriptions.",
         "timing": "Sept 2018 - Sept 2019",
         "description": [
-          "Designed and developed a user-friendly application for managing multiple medications, allowing patients to scan prescriptions for automatic setup of reminders and instructions.",
-          "Initiated project development by creating detailed product specifications, conducting customer research, and identifying business entities and use cases.",
-          "Mastered Ionic framework in Angular mobile and TypeScript to build a reliable and responsive application.",
-          "Maintained regular communication with subject matter experts and stakeholders throughout the development lifecycle."
+          "Conceptualized, pitched, planned, and implemented a personal prescription management system to help users to track their own health",
+          "Implemented features to facilitate commuinication between patients and their immediate healthcare providers to maintain timeliness in recieving crucial care",
+          "This project will return!"
         ]
       },
       {
@@ -131,9 +124,7 @@
         "timing": "June 2018 - Aug 2018",
         "link": "https://www.youtube.com/watch?v=9y5AchSAEJY",
         "description": [
-          "Redesigned and launched a tool to track Office builds, facilitating more frequent and consistent updates.",
-          "Designed and implemented a tagging tool with Teams, enabling customers to efficiently tag items, organize items, and streamline content management processes.",
-          "Collaborated with the lead developer to create a prototype tagging tool within Teams; Achieved widespread adoption within the first week of launch.",
+          "Designed and implemented a tagging tool with Teams, enabling customers to efficiently tag items, organize items, and streamline content management processes; Achieved widespread adoption within the first week of launch.",
           "Enabled more efficient tracking of R&D activities by redesigning an internal workflow visualization tool, tracking completion status on items and sending reminders to relevant personnel."
         ]
       },
@@ -145,9 +136,7 @@
         "timing": "April 2015 - April 2017",
         "link": "http://outreach.mcmaster.ca/",
         "description": [
-          "Developed a library with simplified syntax to allow students to create shapes and animations.",
-          "Organized and led mini hackathons for students, aiding in development of minigames from pre-prepared templates.",
-          "Led the development of game templates for students to explore during mini hackathons, including templates for racing games, block-stacking games, and word games."
+          "Developed a graphics library, minigames & template apps, and various other tools to aid in the McMaster CS Outreach research project"
         ]
       }
     ]
